@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tailwind_gray_50">#f9fafb</color>
+    <color name="tailwind_gray_100">#f3f4f6</color>
+    <color name="tailwind_gray_200">#e5e7eb</color>
+    <color name="tailwind_gray_300">#d1d5db</color>
+    <color name="tailwind_gray_400">#9ca3af</color>
+    <color name="tailwind_gray_500">#6b7280</color>
+    <color name="tailwind_gray_600">#4b5563</color>
+    <color name="tailwind_gray_700">#374151</color>
+    <color name="tailwind_gray_800">#1f2937</color>
+    <color name="tailwind_gray_900">#111827</color>
+    <color name="tailwind_gray_950">#030712</color>
+
+    <color name="tailwind_stone_50">#fafaf9</color>
+    <color name="tailwind_stone_100">#f5f5f4</color>
+    <color name="tailwind_stone_200">#e7e5e4</color>
+    <color name="tailwind_stone_300">#d6d3d1</color>
+    <color name="tailwind_stone_400">#a8a29e</color>
+    <color name="tailwind_stone_500">#78716c</color>
+    <color name="tailwind_stone_600">#57534e</color>
+    <color name="tailwind_stone_700">#44403c</color>
+    <color name="tailwind_stone_800">#292524</color>
+    <color name="tailwind_stone_900">#1c1917</color>
+    <color name="tailwind_stone_950">#0c0a09</color>
+
+    <color name="tailwind_zinc_50">#fafafa</color>
+    <color name="tailwind_zinc_100">#f4f4f5</color>
+    <color name="tailwind_zinc_200">#e4e4e7</color>
+    <color name="tailwind_zinc_300">#d4d4d8</color>
+    <color name="tailwind_zinc_400">#a1a1aa</color>
+    <color name="tailwind_zinc_500">#71717a</color>
+    <color name="tailwind_zinc_600">#52525b</color>
+    <color name="tailwind_zinc_700">#3f3f46</color>
+    <color name="tailwind_zinc_800">#27272a</color>
+    <color name="tailwind_zinc_900">#18181b</color>
+    <color name="tailwind_zinc_950">#09090b</color>
+
+    <color name="tailwind_red_50">#fef2f2</color>
+    <color name="tailwind_red_100">#fee2e2</color>
+    <color name="tailwind_red_200">#fecaca</color>
+    <color name="tailwind_red_300">#fca5a5</color>
+    <color name="tailwind_red_400">#f87171</color>
+    <color name="tailwind_red_500">#ef4444</color>
+    <color name="tailwind_red_600">#dc2626</color>
+    <color name="tailwind_red_700">#b91c1c</color>
+    <color name="tailwind_red_800">#991b1b</color>
+    <color name="tailwind_red_900">#7f1d1d</color>
+    <color name="tailwind_red_950">#450a0a</color>
+
+    <color name="tailwind_blue_50">#eff6ff</color>
+    <color name="tailwind_blue_100">#dbeafe</color>
+    <color name="tailwind_blue_200">#bfdbfe</color>
+    <color name="tailwind_blue_300">#93c5fd</color>
+    <color name="tailwind_blue_400">#60a5fa</color>
+    <color name="tailwind_blue_500">#3b82f6</color>
+    <color name="tailwind_blue_600">#2563eb</color>
+    <color name="tailwind_blue_700">#1d4ed8</color>
+    <color name="tailwind_blue_800">#1e40af</color>
+    <color name="tailwind_blue_900">#1e3a8a</color>
+    <color name="tailwind_blue_950">#172554</color>
+
+    <color name="tailwind_green_50">#f0fdf4</color>
+    <color name="tailwind_green_100">#dcfce7</color>
+    <color name="tailwind_green_200">#bbf7d0</color>
+    <color name="tailwind_green_300">#86efac</color>
+    <color name="tailwind_green_400">#4ade80</color>
+    <color name="tailwind_green_500">#22c55e</color>
+    <color name="tailwind_green_600">#16a34a</color>
+    <color name="tailwind_green_700">#15803d</color>
+    <color name="tailwind_green_800">#166534</color>
+    <color name="tailwind_green_900">#14532d</color>
+    <color name="tailwind_green_950">#052e16</color>
+</resources>
