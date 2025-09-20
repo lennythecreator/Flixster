@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/FlixDemo' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='FlixDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
