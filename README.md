@@ -2,7 +2,7 @@
 
 Submitted by: **Lenny Uwaeme**
 
-**Name of your app** is a movie browsing app that allows users to browse movies currently playing in theaters.
+**Flixster** is a movie browsing app that allows users to browse movies currently playing in theaters.
 
 Time spent: **4** hours spent in total
 
