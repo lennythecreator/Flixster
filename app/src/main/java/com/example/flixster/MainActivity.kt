@@ -30,17 +30,17 @@ class MainActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        // Initialize the class-level movieAdapter variable
         movieAdapter = MovieAdapter(movies)
         recyclerView.adapter = movieAdapter
 
         getMovies()
+        println(getMovies())
 
     }
     fun getMovies(){
         val client = AsyncHttpClient()
         val apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
-        val url = "https://api.themoviedb.org/3/movie/now_playing?&api_key=$apiKey"
+        val url = "https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1&api_key=$apiKey"
 
         client.get(url, object:JsonHttpResponseHandler(){
             override fun onFailure(
@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity() {
             override fun onSuccess(statusCode: Int, headers: Headers, json: JSON) {
                 val movieJsonArray = json.jsonObject.getJSONArray("results")
                 movies.addAll(Movie.fromJsonArray(movieJsonArray))
-                // Now you can safely call notifyDataSetChanged() on movieAdapter
                 movieAdapter.notifyDataSetChanged()
             }
         })

@@ -1,4 +1,6 @@
 package com.example.flixster
+
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -11,13 +13,14 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 
 class MovieAdapter(private val movies: List<Movie>) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
+
     class MovieViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val movieImage: ImageView = itemView.findViewById(R.id.movieImage)
         val movieTitle: TextView = itemView.findViewById(R.id.movieTitle)
         val movieDesc: TextView = itemView.findViewById(R.id.movieDesc)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder{
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.movie, parent, false)
         return MovieViewHolder(view)
@@ -32,11 +35,17 @@ class MovieAdapter(private val movies: List<Movie>) : RecyclerView.Adapter<Movie
         holder.movieTitle.text = movie.movieName
         holder.movieDesc.text = movie.movieDesc
 
+        holder.itemView.setOnClickListener {
+            val context = holder.itemView.context
+            val intent = Intent(context, MovieDetailsActivity::class.java)
+            intent.putExtra("MOVIE_EXTRA", movie)
+            context.startActivity(intent)
+        }
+
         // Debug logging
         Log.d("MovieAdapter", "Loading movie: ${movie.movieName}")
         Log.d("MovieAdapter", "Image URL: ${movie.movieImageUrl}")
 
-        // Simple Glide configuration that should work
         Glide.with(holder.itemView.context)
             .load(movie.movieImageUrl)
             .apply(
